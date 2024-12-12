@@ -147,3 +147,9 @@ dmypy.json
 
 # папки со статикой и медиа
 media/
+blogicum/static/
+blogicum/static_dev/
+/templates/
+
+# Migrations
+blogicum/*/migrations
