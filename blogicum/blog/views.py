@@ -3,6 +3,7 @@ from django.db.models.manager import BaseManager
 from .models import Category, Post
 from datetime import datetime, timezone
 
+
 def index(request):
 
     posts = _filter_posts(Post.objects.select_related(
